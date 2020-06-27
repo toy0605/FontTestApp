@@ -1,0 +1,1103 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00E356F31AD99517003FC87E /* FontTestAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* FontTestAppTests.m */; };
+		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
+		13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
+		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
+		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		2DCD954D1E0B4F2C00145EB5 /* FontTestAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* FontTestAppTests.m */; };
+		7FF0937C8C95454B89C8D430 /* NanumBarunGothicLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = 74BFE01A07404B5A8CB7452C /* NanumBarunGothicLight.otf */; };
+		B392D581D4F0EB2566E31587 /* libPods-FontTestApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 37CD90142AF65929656B7EAE /* libPods-FontTestApp.a */; };
+		BC275D884F5B45A591FE9B2E /* NanumBarunGothicUltraLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = EA35379126324779B4BE4061 /* NanumBarunGothicUltraLight.otf */; };
+		BC90E56024A71D130065C7C7 /* NotoSansCJKkr-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 81070CF771D44D89A0CB7E93 /* NotoSansCJKkr-Black.otf */; };
+		BC90E56124A71D130065C7C7 /* NotoSansCJKkr-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8F5F91CA0001428D8CFD34EC /* NotoSansCJKkr-Bold.otf */; };
+		BC90E56224A71D130065C7C7 /* NotoSansCJKkr-DemiLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4B1F670DA4F142D3A5D2A021 /* NotoSansCJKkr-DemiLight.otf */; };
+		BC90E56324A71D130065C7C7 /* NotoSansCJKkr-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9CF35CC6B4CC412BBA916895 /* NotoSansCJKkr-Light.otf */; };
+		BC90E56424A71D130065C7C7 /* NotoSansCJKkr-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1C254FE11DE94DA299AC625F /* NotoSansCJKkr-Medium.otf */; };
+		BC90E56524A71D130065C7C7 /* NotoSansCJKkr-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 17BD942E630C4A219CDB6C7B /* NotoSansCJKkr-Regular.otf */; };
+		BC90E56624A71D130065C7C7 /* NotoSansCJKkr-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = ABCE90E3B98E4570A4019759 /* NotoSansCJKkr-Thin.otf */; };
+		BC90E56724A71D130065C7C7 /* NotoSansKR-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = EC9F8604C5434BCFBEF3F6C4 /* NotoSansKR-Black.otf */; };
+		BC90E56824A71D130065C7C7 /* NotoSansKR-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = E12F06704182489EBD1D5FF9 /* NotoSansKR-Bold.otf */; };
+		BC90E56924A71D130065C7C7 /* NotoSansKR-DemiLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = 60B97C61BF8044DEA90E1EF1 /* NotoSansKR-DemiLight.otf */; };
+		BC90E56A24A71D130065C7C7 /* NotoSansKR-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 63B44983DDE6477C9523DA02 /* NotoSansKR-Light.otf */; };
+		BC90E56B24A71D130065C7C7 /* NotoSansKR-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 11C56813035B4C98BEAB3C4E /* NotoSansKR-Medium.otf */; };
+		BC90E56C24A71D130065C7C7 /* NotoSansKR-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = D10769FF63EF4764BF540617 /* NotoSansKR-Regular.otf */; };
+		BC90E56D24A71D130065C7C7 /* NotoSansKR-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = FAE51F6C12EA41749368F708 /* NotoSansKR-Thin.otf */; };
+		BC90E56E24A71D130065C7C7 /* NotoSansMonoCJKkr-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9B90D1C751BA45A490CDFBA6 /* NotoSansMonoCJKkr-Bold.otf */; };
+		BC90E56F24A71D130065C7C7 /* NotoSansMonoCJKkr-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = D8CFF6354D5D4A61A111B729 /* NotoSansMonoCJKkr-Regular.otf */; };
+		BC90E57024A71D130065C7C7 /* NotoSerifCJKkr-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 80594EB8AA7A4256924FCC58 /* NotoSerifCJKkr-Black.otf */; };
+		BC90E57124A71D130065C7C7 /* NotoSerifCJKkr-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 882923C57BCA417CAD8A7688 /* NotoSerifCJKkr-Bold.otf */; };
+		BC90E57224A71D130065C7C7 /* NotoSerifCJKkr-ExtraLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = 612FB3BF447040ABB6B4D808 /* NotoSerifCJKkr-ExtraLight.otf */; };
+		BC90E57324A71D130065C7C7 /* NotoSerifCJKkr-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 67E4D8341F5A4EE9BF9CDC14 /* NotoSerifCJKkr-Light.otf */; };
+		BC90E57424A71D130065C7C7 /* NotoSerifCJKkr-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = CB937D5C53504F6FA7754078 /* NotoSerifCJKkr-Medium.otf */; };
+		BC90E57524A71D130065C7C7 /* NotoSerifCJKkr-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = ECF589FBF4F449D881FD3AE3 /* NotoSerifCJKkr-Regular.otf */; };
+		BC90E57624A71D130065C7C7 /* NotoSerifCJKkr-SemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9E84A072DCBD4697883A834D /* NotoSerifCJKkr-SemiBold.otf */; };
+		BC90E57724A71D130065C7C7 /* NotoSerifKR-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6B1C084CC27D4B14BF0EF916 /* NotoSerifKR-Black.otf */; };
+		BC90E57824A71D130065C7C7 /* NotoSerifKR-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 54D60231FC574D288F97EC54 /* NotoSerifKR-Bold.otf */; };
+		BC90E57924A71D130065C7C7 /* NotoSerifKR-ExtraLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2F0F15D9CCCA45EB8C14D760 /* NotoSerifKR-ExtraLight.otf */; };
+		BC90E57A24A71D130065C7C7 /* NotoSerifKR-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = D51621B8100645A58986E12E /* NotoSerifKR-Light.otf */; };
+		BC90E57B24A71D130065C7C7 /* NotoSerifKR-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 56E0FB28C7E14043A3F10C0E /* NotoSerifKR-Medium.otf */; };
+		BC90E57C24A71D130065C7C7 /* NotoSerifKR-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 00C3421A11464C44A86F1C4D /* NotoSerifKR-Regular.otf */; };
+		BC90E57D24A71D130065C7C7 /* NotoSerifKR-SemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6C45F2FC3EB648A2AA6D9607 /* NotoSerifKR-SemiBold.otf */; };
+		BC90E57E24A71FFB0065C7C7 /* NanumGothic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0E547A71576541D2948871B2 /* NanumGothic.otf */; };
+		BC90E57F24A71FFB0065C7C7 /* NanumGothicBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 115F0F1F614B4F94AA3C88E4 /* NanumGothicBold.otf */; };
+		BC90E58024A71FFB0065C7C7 /* NanumGothicExtraBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = DE68A39627654011B5D6561C /* NanumGothicExtraBold.otf */; };
+		BF04CC4ECCE34D149FB4AF13 /* NanumBarunGothic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 003F6D073F6747199E22D961 /* NanumBarunGothic.otf */; };
+		C4E89026EC6828EBEB51490D /* libPods-FontTestApp-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E4F110BAE3BDEAA5FD5D6B90 /* libPods-FontTestApp-tvOS.a */; };
+		D1F5E43418344AA48126218F /* NanumBarunGothicBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8A37DC403DBC438D8CD3FB3D /* NanumBarunGothicBold.otf */; };
+		D291FCECD5B76464F53AA739 /* libPods-FontTestApp-FontTestAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D65ED703581654694454806 /* libPods-FontTestApp-FontTestAppTests.a */; };
+		E5EF67E8ADED7284999E114C /* libPods-FontTestApp-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C328CA8724683989278C5839 /* libPods-FontTestApp-tvOSTests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		00E356F41AD99517003FC87E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
+			remoteInfo = FontTestApp;
+		};
+		2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2D02E47A1E0B4A5D006451C7;
+			remoteInfo = "FontTestApp-tvOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		003F6D073F6747199E22D961 /* NanumBarunGothic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = NanumBarunGothic.otf; path = ../assets/fonts/NanumBarunGothic.otf; sourceTree = "<group>"; };
+		008F07F21AC5B25A0029DE68 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
+		00C3421A11464C44A86F1C4D /* NotoSerifKR-Regular.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "NotoSerifKR-Regular.otf"; path = "../assets/fonts/NotoSerifKR-Regular.otf"; sourceTree = "<group>"; };
+		00E356EE1AD99517003FC87E /* FontTestAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FontTestAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* FontTestAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FontTestAppTests.m; sourceTree = "<group>"; };
+		0E547A71576541D2948871B2 /* NanumGothic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = NanumGothic.otf; path = ../assets/fonts/NanumGothic.otf; sourceTree = "<group>"; };
+		115F0F1F614B4F94AA3C88E4 /* NanumGothicBold.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = NanumGothicBold.otf; path = ../assets/fonts/NanumGothicBold.otf; sourceTree = "<group>"; };
+		11C56813035B4C98BEAB3C4E /* NotoSansKR-Medium.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "NotoSansKR-Medium.otf"; path = "../assets/fonts/NotoSansKR-Medium.otf"; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* FontTestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FontTestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = FontTestApp/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = FontTestApp/AppDelegate.m; sourceTree = "<group>"; };
+		13B07FB21A68108700A75B9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = FontTestApp/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = FontTestApp/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = FontTestApp/main.m; sourceTree = "<group>"; };
+		17BD942E630C4A219CDB6C7B /* NotoSansCJKkr-Regular.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "NotoSansCJKkr-Regular.otf"; path = "../assets/fonts/NotoSansCJKkr-Regular.otf"; sourceTree = "<group>"; };
+		19EA4858837AA30A30DAD64D /* Pods-FontTestApp-FontTestAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FontTestApp-FontTestAppTests.debug.xcconfig"; path = "Target Support Files/Pods-FontTestApp-FontTestAppTests/Pods-FontTestApp-FontTestAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		1C254FE11DE94DA299AC625F /* NotoSansCJKkr-Medium.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "NotoSansCJKkr-Medium.otf"; path = "../assets/fonts/NotoSansCJKkr-Medium.otf"; sourceTree = "<group>"; };
+		205DD199C2BFB289DB780C17 /* Pods-FontTestApp-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FontTestApp-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-FontTestApp-tvOSTests/Pods-FontTestApp-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		2D02E47B1E0B4A5D006451C7 /* FontTestApp-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FontTestApp-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D02E4901E0B4A5D006451C7 /* FontTestApp-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FontTestApp-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F0F15D9CCCA45EB8C14D760 /* NotoSerifKR-ExtraLight.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "NotoSerifKR-ExtraLight.otf"; path = "../assets/fonts/NotoSerifKR-ExtraLight.otf"; sourceTree = "<group>"; };
+		371DCF6E631055844FBF2C27 /* Pods-FontTestApp-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FontTestApp-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-FontTestApp-tvOSTests/Pods-FontTestApp-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		37CD90142AF65929656B7EAE /* libPods-FontTestApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FontTestApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4056532EBD61824E13D34D2D /* Pods-FontTestApp-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FontTestApp-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-FontTestApp-tvOS/Pods-FontTestApp-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		4B1F670DA4F142D3A5D2A021 /* NotoSansCJKkr-DemiLight.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "NotoSansCJKkr-DemiLight.otf"; path = "../assets/fonts/NotoSansCJKkr-DemiLight.otf"; sourceTree = "<group>"; };
+		4BE905344FA42FEBD8AB3A4E /* Pods-FontTestApp-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FontTestApp-tvOS.release.xcconfig"; path = "Target Support Files/Pods-FontTestApp-tvOS/Pods-FontTestApp-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		54D60231FC574D288F97EC54 /* NotoSerifKR-Bold.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "NotoSerifKR-Bold.otf"; path = "../assets/fonts/NotoSerifKR-Bold.otf"; sourceTree = "<group>"; };
+		55EA85D75F962F54A3FBF13F /* Pods-FontTestApp-FontTestAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FontTestApp-FontTestAppTests.release.xcconfig"; path = "Target Support Files/Pods-FontTestApp-FontTestAppTests/Pods-FontTestApp-FontTestAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		564102711CFBFACFEB27070C /* Pods-FontTestApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FontTestApp.release.xcconfig"; path = "Target Support Files/Pods-FontTestApp/Pods-FontTestApp.release.xcconfig"; sourceTree = "<group>"; };
+		56E0FB28C7E14043A3F10C0E /* NotoSerifKR-Medium.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "NotoSerifKR-Medium.otf"; path = "../assets/fonts/NotoSerifKR-Medium.otf"; sourceTree = "<group>"; };
+		60B97C61BF8044DEA90E1EF1 /* NotoSansKR-DemiLight.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "NotoSansKR-DemiLight.otf"; path = "../assets/fonts/NotoSansKR-DemiLight.otf"; sourceTree = "<group>"; };
+		612FB3BF447040ABB6B4D808 /* NotoSerifCJKkr-ExtraLight.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "NotoSerifCJKkr-ExtraLight.otf"; path = "../assets/fonts/NotoSerifCJKkr-ExtraLight.otf"; sourceTree = "<group>"; };
+		63B44983DDE6477C9523DA02 /* NotoSansKR-Light.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "NotoSansKR-Light.otf"; path = "../assets/fonts/NotoSansKR-Light.otf"; sourceTree = "<group>"; };
+		67E4D8341F5A4EE9BF9CDC14 /* NotoSerifCJKkr-Light.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "NotoSerifCJKkr-Light.otf"; path = "../assets/fonts/NotoSerifCJKkr-Light.otf"; sourceTree = "<group>"; };
+		6B1C084CC27D4B14BF0EF916 /* NotoSerifKR-Black.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "NotoSerifKR-Black.otf"; path = "../assets/fonts/NotoSerifKR-Black.otf"; sourceTree = "<group>"; };
+		6C45F2FC3EB648A2AA6D9607 /* NotoSerifKR-SemiBold.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "NotoSerifKR-SemiBold.otf"; path = "../assets/fonts/NotoSerifKR-SemiBold.otf"; sourceTree = "<group>"; };
+		6D65ED703581654694454806 /* libPods-FontTestApp-FontTestAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FontTestApp-FontTestAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		74BFE01A07404B5A8CB7452C /* NanumBarunGothicLight.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = NanumBarunGothicLight.otf; path = ../assets/fonts/NanumBarunGothicLight.otf; sourceTree = "<group>"; };
+		80594EB8AA7A4256924FCC58 /* NotoSerifCJKkr-Black.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "NotoSerifCJKkr-Black.otf"; path = "../assets/fonts/NotoSerifCJKkr-Black.otf"; sourceTree = "<group>"; };
+		81070CF771D44D89A0CB7E93 /* NotoSansCJKkr-Black.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "NotoSansCJKkr-Black.otf"; path = "../assets/fonts/NotoSansCJKkr-Black.otf"; sourceTree = "<group>"; };
+		882923C57BCA417CAD8A7688 /* NotoSerifCJKkr-Bold.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "NotoSerifCJKkr-Bold.otf"; path = "../assets/fonts/NotoSerifCJKkr-Bold.otf"; sourceTree = "<group>"; };
+		8A37DC403DBC438D8CD3FB3D /* NanumBarunGothicBold.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = NanumBarunGothicBold.otf; path = ../assets/fonts/NanumBarunGothicBold.otf; sourceTree = "<group>"; };
+		8F5F91CA0001428D8CFD34EC /* NotoSansCJKkr-Bold.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "NotoSansCJKkr-Bold.otf"; path = "../assets/fonts/NotoSansCJKkr-Bold.otf"; sourceTree = "<group>"; };
+		9B90D1C751BA45A490CDFBA6 /* NotoSansMonoCJKkr-Bold.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "NotoSansMonoCJKkr-Bold.otf"; path = "../assets/fonts/NotoSansMonoCJKkr-Bold.otf"; sourceTree = "<group>"; };
+		9CF35CC6B4CC412BBA916895 /* NotoSansCJKkr-Light.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "NotoSansCJKkr-Light.otf"; path = "../assets/fonts/NotoSansCJKkr-Light.otf"; sourceTree = "<group>"; };
+		9E84A072DCBD4697883A834D /* NotoSerifCJKkr-SemiBold.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "NotoSerifCJKkr-SemiBold.otf"; path = "../assets/fonts/NotoSerifCJKkr-SemiBold.otf"; sourceTree = "<group>"; };
+		ABCE90E3B98E4570A4019759 /* NotoSansCJKkr-Thin.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "NotoSansCJKkr-Thin.otf"; path = "../assets/fonts/NotoSansCJKkr-Thin.otf"; sourceTree = "<group>"; };
+		C328CA8724683989278C5839 /* libPods-FontTestApp-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FontTestApp-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C35309F8245C0FBB8BBFA314 /* Pods-FontTestApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FontTestApp.debug.xcconfig"; path = "Target Support Files/Pods-FontTestApp/Pods-FontTestApp.debug.xcconfig"; sourceTree = "<group>"; };
+		CB937D5C53504F6FA7754078 /* NotoSerifCJKkr-Medium.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "NotoSerifCJKkr-Medium.otf"; path = "../assets/fonts/NotoSerifCJKkr-Medium.otf"; sourceTree = "<group>"; };
+		D10769FF63EF4764BF540617 /* NotoSansKR-Regular.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "NotoSansKR-Regular.otf"; path = "../assets/fonts/NotoSansKR-Regular.otf"; sourceTree = "<group>"; };
+		D51621B8100645A58986E12E /* NotoSerifKR-Light.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "NotoSerifKR-Light.otf"; path = "../assets/fonts/NotoSerifKR-Light.otf"; sourceTree = "<group>"; };
+		D8CFF6354D5D4A61A111B729 /* NotoSansMonoCJKkr-Regular.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "NotoSansMonoCJKkr-Regular.otf"; path = "../assets/fonts/NotoSansMonoCJKkr-Regular.otf"; sourceTree = "<group>"; };
+		DE68A39627654011B5D6561C /* NanumGothicExtraBold.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = NanumGothicExtraBold.otf; path = ../assets/fonts/NanumGothicExtraBold.otf; sourceTree = "<group>"; };
+		E12F06704182489EBD1D5FF9 /* NotoSansKR-Bold.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "NotoSansKR-Bold.otf"; path = "../assets/fonts/NotoSansKR-Bold.otf"; sourceTree = "<group>"; };
+		E4F110BAE3BDEAA5FD5D6B90 /* libPods-FontTestApp-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FontTestApp-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA35379126324779B4BE4061 /* NanumBarunGothicUltraLight.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = NanumBarunGothicUltraLight.otf; path = ../assets/fonts/NanumBarunGothicUltraLight.otf; sourceTree = "<group>"; };
+		EC9F8604C5434BCFBEF3F6C4 /* NotoSansKR-Black.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "NotoSansKR-Black.otf"; path = "../assets/fonts/NotoSansKR-Black.otf"; sourceTree = "<group>"; };
+		ECF589FBF4F449D881FD3AE3 /* NotoSerifCJKkr-Regular.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "NotoSerifCJKkr-Regular.otf"; path = "../assets/fonts/NotoSerifCJKkr-Regular.otf"; sourceTree = "<group>"; };
+		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
+		FAE51F6C12EA41749368F708 /* NotoSansKR-Thin.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "NotoSansKR-Thin.otf"; path = "../assets/fonts/NotoSansKR-Thin.otf"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00E356EB1AD99517003FC87E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D291FCECD5B76464F53AA739 /* libPods-FontTestApp-FontTestAppTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8C1A680F5B00A75B9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B392D581D4F0EB2566E31587 /* libPods-FontTestApp.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D02E4781E0B4A5D006451C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4E89026EC6828EBEB51490D /* libPods-FontTestApp-tvOS.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D02E48D1E0B4A5D006451C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5EF67E8ADED7284999E114C /* libPods-FontTestApp-tvOSTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00E356EF1AD99517003FC87E /* FontTestAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F21AD99517003FC87E /* FontTestAppTests.m */,
+				00E356F01AD99517003FC87E /* Supporting Files */,
+			);
+			path = FontTestAppTests;
+			sourceTree = "<group>";
+		};
+		00E356F01AD99517003FC87E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F11AD99517003FC87E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		13B07FAE1A68108700A75B9A /* FontTestApp */ = {
+			isa = PBXGroup;
+			children = (
+				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
+				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
+				13B07FB01A68108700A75B9A /* AppDelegate.m */,
+				13B07FB51A68108700A75B9A /* Images.xcassets */,
+				13B07FB61A68108700A75B9A /* Info.plist */,
+				13B07FB11A68108700A75B9A /* LaunchScreen.xib */,
+				13B07FB71A68108700A75B9A /* main.m */,
+			);
+			name = FontTestApp;
+			sourceTree = "<group>";
+		};
+		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
+				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
+				37CD90142AF65929656B7EAE /* libPods-FontTestApp.a */,
+				6D65ED703581654694454806 /* libPods-FontTestApp-FontTestAppTests.a */,
+				E4F110BAE3BDEAA5FD5D6B90 /* libPods-FontTestApp-tvOS.a */,
+				C328CA8724683989278C5839 /* libPods-FontTestApp-tvOSTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5B3E49E54BC99EE17495831D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C35309F8245C0FBB8BBFA314 /* Pods-FontTestApp.debug.xcconfig */,
+				564102711CFBFACFEB27070C /* Pods-FontTestApp.release.xcconfig */,
+				19EA4858837AA30A30DAD64D /* Pods-FontTestApp-FontTestAppTests.debug.xcconfig */,
+				55EA85D75F962F54A3FBF13F /* Pods-FontTestApp-FontTestAppTests.release.xcconfig */,
+				4056532EBD61824E13D34D2D /* Pods-FontTestApp-tvOS.debug.xcconfig */,
+				4BE905344FA42FEBD8AB3A4E /* Pods-FontTestApp-tvOS.release.xcconfig */,
+				371DCF6E631055844FBF2C27 /* Pods-FontTestApp-tvOSTests.debug.xcconfig */,
+				205DD199C2BFB289DB780C17 /* Pods-FontTestApp-tvOSTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		7992BBE269D241CEAFBFD135 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0E547A71576541D2948871B2 /* NanumGothic.otf */,
+				115F0F1F614B4F94AA3C88E4 /* NanumGothicBold.otf */,
+				DE68A39627654011B5D6561C /* NanumGothicExtraBold.otf */,
+				81070CF771D44D89A0CB7E93 /* NotoSansCJKkr-Black.otf */,
+				8F5F91CA0001428D8CFD34EC /* NotoSansCJKkr-Bold.otf */,
+				4B1F670DA4F142D3A5D2A021 /* NotoSansCJKkr-DemiLight.otf */,
+				9CF35CC6B4CC412BBA916895 /* NotoSansCJKkr-Light.otf */,
+				1C254FE11DE94DA299AC625F /* NotoSansCJKkr-Medium.otf */,
+				17BD942E630C4A219CDB6C7B /* NotoSansCJKkr-Regular.otf */,
+				ABCE90E3B98E4570A4019759 /* NotoSansCJKkr-Thin.otf */,
+				EC9F8604C5434BCFBEF3F6C4 /* NotoSansKR-Black.otf */,
+				E12F06704182489EBD1D5FF9 /* NotoSansKR-Bold.otf */,
+				60B97C61BF8044DEA90E1EF1 /* NotoSansKR-DemiLight.otf */,
+				63B44983DDE6477C9523DA02 /* NotoSansKR-Light.otf */,
+				11C56813035B4C98BEAB3C4E /* NotoSansKR-Medium.otf */,
+				D10769FF63EF4764BF540617 /* NotoSansKR-Regular.otf */,
+				FAE51F6C12EA41749368F708 /* NotoSansKR-Thin.otf */,
+				9B90D1C751BA45A490CDFBA6 /* NotoSansMonoCJKkr-Bold.otf */,
+				D8CFF6354D5D4A61A111B729 /* NotoSansMonoCJKkr-Regular.otf */,
+				80594EB8AA7A4256924FCC58 /* NotoSerifCJKkr-Black.otf */,
+				882923C57BCA417CAD8A7688 /* NotoSerifCJKkr-Bold.otf */,
+				612FB3BF447040ABB6B4D808 /* NotoSerifCJKkr-ExtraLight.otf */,
+				67E4D8341F5A4EE9BF9CDC14 /* NotoSerifCJKkr-Light.otf */,
+				CB937D5C53504F6FA7754078 /* NotoSerifCJKkr-Medium.otf */,
+				ECF589FBF4F449D881FD3AE3 /* NotoSerifCJKkr-Regular.otf */,
+				9E84A072DCBD4697883A834D /* NotoSerifCJKkr-SemiBold.otf */,
+				6B1C084CC27D4B14BF0EF916 /* NotoSerifKR-Black.otf */,
+				54D60231FC574D288F97EC54 /* NotoSerifKR-Bold.otf */,
+				2F0F15D9CCCA45EB8C14D760 /* NotoSerifKR-ExtraLight.otf */,
+				D51621B8100645A58986E12E /* NotoSerifKR-Light.otf */,
+				56E0FB28C7E14043A3F10C0E /* NotoSerifKR-Medium.otf */,
+				00C3421A11464C44A86F1C4D /* NotoSerifKR-Regular.otf */,
+				6C45F2FC3EB648A2AA6D9607 /* NotoSerifKR-SemiBold.otf */,
+				003F6D073F6747199E22D961 /* NanumBarunGothic.otf */,
+				8A37DC403DBC438D8CD3FB3D /* NanumBarunGothicBold.otf */,
+				74BFE01A07404B5A8CB7452C /* NanumBarunGothicLight.otf */,
+				EA35379126324779B4BE4061 /* NanumBarunGothicUltraLight.otf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		83CBB9F61A601CBA00E9B192 = {
+			isa = PBXGroup;
+			children = (
+				13B07FAE1A68108700A75B9A /* FontTestApp */,
+				832341AE1AAA6A7D00B99B32 /* Libraries */,
+				00E356EF1AD99517003FC87E /* FontTestAppTests */,
+				83CBBA001A601CBA00E9B192 /* Products */,
+				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				5B3E49E54BC99EE17495831D /* Pods */,
+				7992BBE269D241CEAFBFD135 /* Resources */,
+			);
+			indentWidth = 2;
+			sourceTree = "<group>";
+			tabWidth = 2;
+			usesTabs = 0;
+		};
+		83CBBA001A601CBA00E9B192 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13B07F961A680F5B00A75B9A /* FontTestApp.app */,
+				00E356EE1AD99517003FC87E /* FontTestAppTests.xctest */,
+				2D02E47B1E0B4A5D006451C7 /* FontTestApp-tvOS.app */,
+				2D02E4901E0B4A5D006451C7 /* FontTestApp-tvOSTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00E356ED1AD99517003FC87E /* FontTestAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "FontTestAppTests" */;
+			buildPhases = (
+				2C269FEFEBFF204C097BF156 /* [CP] Check Pods Manifest.lock */,
+				00E356EA1AD99517003FC87E /* Sources */,
+				00E356EB1AD99517003FC87E /* Frameworks */,
+				00E356EC1AD99517003FC87E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00E356F51AD99517003FC87E /* PBXTargetDependency */,
+			);
+			name = FontTestAppTests;
+			productName = FontTestAppTests;
+			productReference = 00E356EE1AD99517003FC87E /* FontTestAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		13B07F861A680F5B00A75B9A /* FontTestApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "FontTestApp" */;
+			buildPhases = (
+				CA6BDFD17E37F91CE0070F7D /* [CP] Check Pods Manifest.lock */,
+				FD10A7F022414F080027D42C /* Start Packager */,
+				13B07F871A680F5B00A75B9A /* Sources */,
+				13B07F8C1A680F5B00A75B9A /* Frameworks */,
+				13B07F8E1A680F5B00A75B9A /* Resources */,
+				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FontTestApp;
+			productName = FontTestApp;
+			productReference = 13B07F961A680F5B00A75B9A /* FontTestApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2D02E47A1E0B4A5D006451C7 /* FontTestApp-tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "FontTestApp-tvOS" */;
+			buildPhases = (
+				FB2E8265B746E4ADF46BD3AB /* [CP] Check Pods Manifest.lock */,
+				FD10A7F122414F3F0027D42C /* Start Packager */,
+				2D02E4771E0B4A5D006451C7 /* Sources */,
+				2D02E4781E0B4A5D006451C7 /* Frameworks */,
+				2D02E4791E0B4A5D006451C7 /* Resources */,
+				2D02E4CB1E0B4B27006451C7 /* Bundle React Native Code And Images */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FontTestApp-tvOS";
+			productName = "FontTestApp-tvOS";
+			productReference = 2D02E47B1E0B4A5D006451C7 /* FontTestApp-tvOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2D02E48F1E0B4A5D006451C7 /* FontTestApp-tvOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "FontTestApp-tvOSTests" */;
+			buildPhases = (
+				B5EC6498E0781B98EF527293 /* [CP] Check Pods Manifest.lock */,
+				2D02E48C1E0B4A5D006451C7 /* Sources */,
+				2D02E48D1E0B4A5D006451C7 /* Frameworks */,
+				2D02E48E1E0B4A5D006451C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */,
+			);
+			name = "FontTestApp-tvOSTests";
+			productName = "FontTestApp-tvOSTests";
+			productReference = 2D02E4901E0B4A5D006451C7 /* FontTestApp-tvOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83CBB9F71A601CBA00E9B192 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				TargetAttributes = {
+					00E356ED1AD99517003FC87E = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 13B07F861A680F5B00A75B9A;
+					};
+					13B07F861A680F5B00A75B9A = {
+						LastSwiftMigration = 1120;
+					};
+					2D02E47A1E0B4A5D006451C7 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					2D02E48F1E0B4A5D006451C7 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2D02E47A1E0B4A5D006451C7;
+					};
+				};
+			};
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "FontTestApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 83CBB9F61A601CBA00E9B192;
+			productRefGroup = 83CBBA001A601CBA00E9B192 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13B07F861A680F5B00A75B9A /* FontTestApp */,
+				00E356ED1AD99517003FC87E /* FontTestAppTests */,
+				2D02E47A1E0B4A5D006451C7 /* FontTestApp-tvOS */,
+				2D02E48F1E0B4A5D006451C7 /* FontTestApp-tvOSTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00E356EC1AD99517003FC87E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8E1A680F5B00A75B9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC90E57E24A71FFB0065C7C7 /* NanumGothic.otf in Resources */,
+				BC90E57F24A71FFB0065C7C7 /* NanumGothicBold.otf in Resources */,
+				BC90E58024A71FFB0065C7C7 /* NanumGothicExtraBold.otf in Resources */,
+				BC90E56024A71D130065C7C7 /* NotoSansCJKkr-Black.otf in Resources */,
+				BC90E56124A71D130065C7C7 /* NotoSansCJKkr-Bold.otf in Resources */,
+				BC90E56224A71D130065C7C7 /* NotoSansCJKkr-DemiLight.otf in Resources */,
+				BC90E56324A71D130065C7C7 /* NotoSansCJKkr-Light.otf in Resources */,
+				BC90E56424A71D130065C7C7 /* NotoSansCJKkr-Medium.otf in Resources */,
+				BC90E56524A71D130065C7C7 /* NotoSansCJKkr-Regular.otf in Resources */,
+				BC90E56624A71D130065C7C7 /* NotoSansCJKkr-Thin.otf in Resources */,
+				BC90E56724A71D130065C7C7 /* NotoSansKR-Black.otf in Resources */,
+				BC90E56824A71D130065C7C7 /* NotoSansKR-Bold.otf in Resources */,
+				BC90E56924A71D130065C7C7 /* NotoSansKR-DemiLight.otf in Resources */,
+				BC90E56A24A71D130065C7C7 /* NotoSansKR-Light.otf in Resources */,
+				BC90E56B24A71D130065C7C7 /* NotoSansKR-Medium.otf in Resources */,
+				BC90E56C24A71D130065C7C7 /* NotoSansKR-Regular.otf in Resources */,
+				BC90E56D24A71D130065C7C7 /* NotoSansKR-Thin.otf in Resources */,
+				BC90E56E24A71D130065C7C7 /* NotoSansMonoCJKkr-Bold.otf in Resources */,
+				BC90E56F24A71D130065C7C7 /* NotoSansMonoCJKkr-Regular.otf in Resources */,
+				BC90E57024A71D130065C7C7 /* NotoSerifCJKkr-Black.otf in Resources */,
+				BC90E57124A71D130065C7C7 /* NotoSerifCJKkr-Bold.otf in Resources */,
+				BC90E57224A71D130065C7C7 /* NotoSerifCJKkr-ExtraLight.otf in Resources */,
+				BC90E57324A71D130065C7C7 /* NotoSerifCJKkr-Light.otf in Resources */,
+				BC90E57424A71D130065C7C7 /* NotoSerifCJKkr-Medium.otf in Resources */,
+				BC90E57524A71D130065C7C7 /* NotoSerifCJKkr-Regular.otf in Resources */,
+				BC90E57624A71D130065C7C7 /* NotoSerifCJKkr-SemiBold.otf in Resources */,
+				BC90E57724A71D130065C7C7 /* NotoSerifKR-Black.otf in Resources */,
+				BC90E57824A71D130065C7C7 /* NotoSerifKR-Bold.otf in Resources */,
+				BC90E57924A71D130065C7C7 /* NotoSerifKR-ExtraLight.otf in Resources */,
+				BC90E57A24A71D130065C7C7 /* NotoSerifKR-Light.otf in Resources */,
+				BC90E57B24A71D130065C7C7 /* NotoSerifKR-Medium.otf in Resources */,
+				BC90E57C24A71D130065C7C7 /* NotoSerifKR-Regular.otf in Resources */,
+				BC90E57D24A71D130065C7C7 /* NotoSerifKR-SemiBold.otf in Resources */,
+				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
+				BF04CC4ECCE34D149FB4AF13 /* NanumBarunGothic.otf in Resources */,
+				D1F5E43418344AA48126218F /* NanumBarunGothicBold.otf in Resources */,
+				7FF0937C8C95454B89C8D430 /* NanumBarunGothicLight.otf in Resources */,
+				BC275D884F5B45A591FE9B2E /* NanumBarunGothicUltraLight.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D02E4791E0B4A5D006451C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D02E48E1E0B4A5D006451C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh\n";
+		};
+		2C269FEFEBFF204C097BF156 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FontTestApp-FontTestAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2D02E4CB1E0B4B27006451C7 /* Bundle React Native Code And Images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native Code And Images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
+		};
+		B5EC6498E0781B98EF527293 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FontTestApp-tvOSTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CA6BDFD17E37F91CE0070F7D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FontTestApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FB2E8265B746E4ADF46BD3AB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FontTestApp-tvOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD10A7F022414F080027D42C /* Start Packager */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Start Packager";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FD10A7F122414F3F0027D42C /* Start Packager */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Start Packager";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00E356EA1AD99517003FC87E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00E356F31AD99517003FC87E /* FontTestAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F871A680F5B00A75B9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
+				13B07FC11A68108700A75B9A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D02E4771E0B4A5D006451C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */,
+				2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D02E48C1E0B4A5D006451C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DCD954D1E0B4F2C00145EB5 /* FontTestAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13B07F861A680F5B00A75B9A /* FontTestApp */;
+			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
+		};
+		2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2D02E47A1E0B4A5D006451C7 /* FontTestApp-tvOS */;
+			targetProxy = 2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		13B07FB11A68108700A75B9A /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				13B07FB21A68108700A75B9A /* Base */,
+			);
+			name = LaunchScreen.xib;
+			path = FontTestApp;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		00E356F61AD99517003FC87E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19EA4858837AA30A30DAD64D /* Pods-FontTestApp-FontTestAppTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FontTestAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FontTestApp.app/FontTestApp";
+			};
+			name = Debug;
+		};
+		00E356F71AD99517003FC87E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55EA85D75F962F54A3FBF13F /* Pods-FontTestApp-FontTestAppTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COPY_PHASE_STRIP = NO;
+				INFOPLIST_FILE = FontTestAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FontTestApp.app/FontTestApp";
+			};
+			name = Release;
+		};
+		13B07F941A680F5B00A75B9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C35309F8245C0FBB8BBFA314 /* Pods-FontTestApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_BITCODE = NO;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"FB_SONARKIT_ENABLED=1",
+				);
+				INFOPLIST_FILE = FontTestApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = FontTestApp;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		13B07F951A680F5B00A75B9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 564102711CFBFACFEB27070C /* Pods-FontTestApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_FILE = FontTestApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = FontTestApp;
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		2D02E4971E0B4A5E006451C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4056532EBD61824E13D34D2D /* Pods-FontTestApp-tvOS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "FontTestApp-tvOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.FontTestApp-tvOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+			};
+			name = Debug;
+		};
+		2D02E4981E0B4A5E006451C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4BE905344FA42FEBD8AB3A4E /* Pods-FontTestApp-tvOS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "FontTestApp-tvOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.FontTestApp-tvOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+			};
+			name = Release;
+		};
+		2D02E4991E0B4A5E006451C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 371DCF6E631055844FBF2C27 /* Pods-FontTestApp-tvOSTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "FontTestApp-tvOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.FontTestApp-tvOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FontTestApp-tvOS.app/FontTestApp-tvOS";
+				TVOS_DEPLOYMENT_TARGET = 10.1;
+			};
+			name = Debug;
+		};
+		2D02E49A1E0B4A5E006451C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 205DD199C2BFB289DB780C17 /* Pods-FontTestApp-tvOSTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "FontTestApp-tvOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.FontTestApp-tvOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FontTestApp-tvOS.app/FontTestApp-tvOS";
+				TVOS_DEPLOYMENT_TARGET = 10.1;
+			};
+			name = Release;
+		};
+		83CBBA201A601CBA00E9B192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "/usr/lib/swift $(inherited)";
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift-5.0/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		83CBBA211A601CBA00E9B192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "/usr/lib/swift $(inherited)";
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift-5.0/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "FontTestAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00E356F61AD99517003FC87E /* Debug */,
+				00E356F71AD99517003FC87E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "FontTestApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13B07F941A680F5B00A75B9A /* Debug */,
+				13B07F951A680F5B00A75B9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "FontTestApp-tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D02E4971E0B4A5E006451C7 /* Debug */,
+				2D02E4981E0B4A5E006451C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "FontTestApp-tvOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D02E4991E0B4A5E006451C7 /* Debug */,
+				2D02E49A1E0B4A5E006451C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "FontTestApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83CBBA201A601CBA00E9B192 /* Debug */,
+				83CBBA211A601CBA00E9B192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83CBB9F71A601CBA00E9B192 /* Project object */;
+}
