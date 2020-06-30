@@ -20,8 +20,11 @@ const Styles = StyleSheet.create({
     marginHorizontal: 15,
     paddingVertical: 15,
   },
+  innerView: {
+    padding: 10
+  },
   commonFont: {
-    padding: 10,
+    margin: 0,
     fontSize: 12,
     lineHeight: 28,
   },
@@ -118,7 +121,7 @@ const App = () => {
           <Text>TEXT METRICS VIEW</Text>
         </TouchableOpacity>
       </ScrollView>
-      <ScrollView>
+      <ScrollView contentContainerStyle={Styles.innerView}>
         <Text>{font}</Text>
         <View>
           {visibleTextMetrics &&
